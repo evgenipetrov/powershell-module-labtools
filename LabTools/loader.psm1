@@ -9,3 +9,4 @@
 # LOADING ALL FUNCTION DEFINITIONS:
 
 . $PSScriptRoot\Rename-LabComputer.ps1
+. $PSScriptRoot\Set-LabNetAddress.ps1
