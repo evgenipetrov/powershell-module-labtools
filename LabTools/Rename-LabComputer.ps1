@@ -10,5 +10,6 @@
   if ($env:COMPUTERNAME -notlike $NewName)
   {
     Rename-Computer -NewName $NewName
+    Restart-Computer -Force
   }
 }
