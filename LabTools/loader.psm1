@@ -8,6 +8,7 @@
 
 # LOADING ALL FUNCTION DEFINITIONS:
 
+. $PSScriptRoot\Add-LabActiveDirectory.ps1
 . $PSScriptRoot\Install-LabWindowsServerFeature.ps1
 . $PSScriptRoot\Rename-LabComputer.ps1
 . $PSScriptRoot\Set-LabNetAddress.ps1
